@@ -511,7 +511,6 @@
                     <a href="informasi-pendaftaran.html" class="nav-link">Informasi</a>
                     <a href="pendaftaran-pasien-baru.html" class="nav-link">Pasien Baru</a>
                     <a href="login-pasien.html" class="nav-link">Pasien Lama</a>
-                    <a href="pasien-bpjs.html" class="nav-link">BPJS</a>
                 </nav>
                 
                 <button class="hamburger" aria-label="Menu" onclick="toggleMenu()">
@@ -536,10 +535,6 @@
                 <a href="login-pasien.html" class="mobile-menu-item">
                     <span class="menu-icon">🔄</span>
                     <span class="menu-text">Pasien Lama</span>
-                </a>
-                <a href="pasien-bpjs.html" class="mobile-menu-item">
-                    <span class="menu-icon">🏥</span>
-                    <span class="menu-text">Pasien BPJS</span>
                 </a>
             </div>
         </div>
@@ -577,10 +572,6 @@
                         <button class="btn btn-outline btn-custom" onclick="navigateTo('pasien-lama')">
                             Pasien Lama
                         </button>
-                        
-                        <button class="btn btn-primary btn-custom" onclick="navigateTo('pasien-bpjs')">
-                            Pasien BPJS
-                        </button>
                     </div>
                 </div>
             </div>
@@ -616,9 +607,6 @@
                         break;
                     case 'pasien-lama':
                         window.location.href = 'login-pasien.html';
-                        break;
-                    case 'pasien-bpjs':
-                    window.location.href = 'pasien-bpjs.html';
                         break;
                 }
                 
